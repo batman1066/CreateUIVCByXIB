@@ -15,6 +15,8 @@
 		8CD2D60F1DE1D2C700883D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD2D60D1DE1D2C700883D60 /* LaunchScreen.storyboard */; };
 		8CD2D61A1DE1D2C700883D60 /* CreateUIVCByXIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6191DE1D2C700883D60 /* CreateUIVCByXIBTests.m */; };
 		8CD2D6251DE1D2C700883D60 /* CreateUIVCByXIBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6241DE1D2C700883D60 /* CreateUIVCByXIBUITests.m */; };
+		8CD2D63D1DE1D5B300883D60 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D63B1DE1D5B300883D60 /* XibViewController.m */; };
+		8CD2D63E1DE1D5B300883D60 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD2D63C1DE1D5B300883D60 /* XibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		8CD2D6201DE1D2C700883D60 /* CreateUIVCByXIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateUIVCByXIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2D6241DE1D2C700883D60 /* CreateUIVCByXIBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateUIVCByXIBUITests.m; sourceTree = "<group>"; };
 		8CD2D6261DE1D2C700883D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD2D63A1DE1D5B300883D60 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XibViewController.h; path = ../XibViewController.h; sourceTree = "<group>"; };
+		8CD2D63B1DE1D5B300883D60 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XibViewController.m; path = ../XibViewController.m; sourceTree = "<group>"; };
+		8CD2D63C1DE1D5B300883D60 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XibViewController.xib; path = ../XibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		8CD2D5FE1DE1D2C700883D60 /* CreateUIVCByXIB */ = {
 			isa = PBXGroup;
 			children = (
+				8CD2D63A1DE1D5B300883D60 /* XibViewController.h */,
+				8CD2D63B1DE1D5B300883D60 /* XibViewController.m */,
+				8CD2D63C1DE1D5B300883D60 /* XibViewController.xib */,
 				8CD2D6021DE1D2C700883D60 /* AppDelegate.h */,
 				8CD2D6031DE1D2C700883D60 /* AppDelegate.m */,
 				8CD2D6051DE1D2C700883D60 /* ViewController.h */,
@@ -249,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD2D63E1DE1D5B300883D60 /* XibViewController.xib in Resources */,
 				8CD2D60F1DE1D2C700883D60 /* LaunchScreen.storyboard in Resources */,
 				8CD2D60C1DE1D2C700883D60 /* Assets.xcassets in Resources */,
 				8CD2D60A1DE1D2C700883D60 /* Main.storyboard in Resources */,
@@ -276,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD2D63D1DE1D5B300883D60 /* XibViewController.m in Sources */,
 				8CD2D6071DE1D2C700883D60 /* ViewController.m in Sources */,
 				8CD2D6041DE1D2C700883D60 /* AppDelegate.m in Sources */,
 				8CD2D6011DE1D2C700883D60 /* main.m in Sources */,
